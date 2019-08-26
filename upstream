@@ -9,3 +9,5 @@ f91cb51c0d22fac1b4c01a383a960294693f716f/akka-stream_2.11-2.4.20.pom
 71e8db2b8b1588f4a4213e6020df1ca3e98919ef/akka-protobuf_2.11-2.4.20.pom
 41e4c7fac2c9c36dbeafa6826f8cd62f4f857e70/akka-slf4j_2.11-2.4.20.jar
 ff08ab84e6c015fe52e5e0126dc59540f17a7c42/akka-slf4j_2.11-2.4.20.pom
+54178df7e4624efcff62e33a8db550f74822308f/akka-testkit_2.11-2.4.20.jar
+7d7057f3cc9419183b2f7df45abd613efbe4717c/akka-testkit_2.11-2.4.20.pom
