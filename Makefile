@@ -1,0 +1,5 @@
+PKG_NAME := mvn-akka
+URL = https://github.com/akka/akka/archive/v2.6.0-M2.tar.gz
+ARCHIVES = https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.jar : https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.pom : https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.jar : https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.pom : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.jar : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom : https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.jar : https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.pom : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.jar : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.pom :
+
+include ../common/Makefile.common
