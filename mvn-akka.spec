@@ -4,11 +4,11 @@
 #
 Name     : mvn-akka
 Version  : 2.6.0.m2
-Release  : 4
+Release  : 5
 URL      : https://github.com/akka/akka/archive/v2.6.0-M2.tar.gz
 Source0  : https://github.com/akka/akka/archive/v2.6.0-M2.tar.gz
-Source1  : http://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.11/2.4.20/akka-camel_2.11-2.4.20.jar
-Source2  : http://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.11/2.4.20/akka-camel_2.11-2.4.20.pom
+Source1  : http://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.jar
+Source2  : http://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.pom
 Source3  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.jar
 Source4  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.pom
 Source5  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-protobuf_2.12/2.4.20/akka-protobuf_2.12-2.4.20.jar
@@ -22,17 +22,16 @@ Source12  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-stream_2
 Source13  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.jar
 Source14  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.pom
 Source15  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.jar
-Source16  : https://repo.maven.apache.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.pom
-Source17  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.jar
-Source18  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.pom
-Source19  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.jar
-Source20  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.pom
-Source21  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.jar
-Source22  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.pom
-Source23  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.jar
-Source24  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.pom
-Source25  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.jar
-Source26  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom
+Source16  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.jar
+Source17  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.pom
+Source18  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.jar
+Source19  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.pom
+Source20  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.jar
+Source21  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.pom
+Source22  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.jar
+Source23  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.pom
+Source24  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.jar
+Source25  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause
@@ -69,11 +68,11 @@ mkdir -p %{buildroot}/usr/share/package-licenses/mvn-akka
 cp COPYING.protobuf %{buildroot}/usr/share/package-licenses/mvn-akka/COPYING.protobuf
 cp LICENSE %{buildroot}/usr/share/package-licenses/mvn-akka/LICENSE
 cp akka-docs/src/main/paradox/project/licenses.md %{buildroot}/usr/share/package-licenses/mvn-akka/akka-docs_src_main_paradox_project_licenses.md
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.11/2.4.20
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.11/2.4.20/akka-camel_2.11-2.4.20.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.11/2.4.20
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.11/2.4.20/akka-camel_2.11-2.4.20.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.12/2.4.20
 cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.jar
@@ -114,38 +113,35 @@ cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20
 cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.pom
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.jar
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.pom
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.4.20
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.jar
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.4.20
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.pom
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-remote_2.11/2.4.20/akka-remote_2.11-2.4.20.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.4.20
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.jar
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.4.20
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.pom
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.jar
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom
 
 
 %files
@@ -157,8 +153,8 @@ cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.11/2.4.20/akka-actor_2.11-2.4.20.pom
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.jar
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20.pom
-/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.11/2.4.20/akka-camel_2.11-2.4.20.jar
-/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.11/2.4.20/akka-camel_2.11-2.4.20.pom
+/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.jar
+/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.pom
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.jar
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.11/2.4.20/akka-protobuf_2.11-2.4.20.pom
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-protobuf_2.12/2.4.20/akka-protobuf_2.12-2.4.20.jar
@@ -178,7 +174,6 @@ cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.jar
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.pom
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.jar
-/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.pom
 
 %files license
 %defattr(0644,root,root,0755)
