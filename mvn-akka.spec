@@ -4,7 +4,7 @@
 #
 Name     : mvn-akka
 Version  : 2.6.0.m2
-Release  : 5
+Release  : 6
 URL      : https://github.com/akka/akka/archive/v2.6.0-M2.tar.gz
 Source0  : https://github.com/akka/akka/archive/v2.6.0-M2.tar.gz
 Source1  : http://repo1.maven.org/maven2/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.jar
@@ -32,6 +32,7 @@ Source22  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4
 Source23  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.20/akka-slf4j_2.11-2.4.20.pom
 Source24  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.jar
 Source25  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom
+Source26  : https://repo1.maven.org/maven2/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause
@@ -67,6 +68,7 @@ license components for the mvn-akka package.
 mkdir -p %{buildroot}/usr/share/package-licenses/mvn-akka
 cp COPYING.protobuf %{buildroot}/usr/share/package-licenses/mvn-akka/COPYING.protobuf
 cp LICENSE %{buildroot}/usr/share/package-licenses/mvn-akka/LICENSE
+cp akka-cluster/jmx-client/LICENSES %{buildroot}/usr/share/package-licenses/mvn-akka/akka-cluster_jmx-client_LICENSES
 cp akka-docs/src/main/paradox/project/licenses.md %{buildroot}/usr/share/package-licenses/mvn-akka/akka-docs_src_main_paradox_project_licenses.md
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20
 cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-camel_2.12/2.4.20/akka-camel_2.12-2.4.20.jar
@@ -143,6 +145,9 @@ cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20
 cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-stream_2.11/2.4.20/akka-stream_2.11-2.4.20.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.pom
+
 
 %files
 %defattr(-,root,root,-)
@@ -174,9 +179,11 @@ cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/typesafe/akka/akka
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.jar
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.11/2.4.20/akka-testkit_2.11-2.4.20.pom
 /usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.jar
+/usr/share/java/.m2/repository/com/typesafe/akka/akka-testkit_2.12/2.4.20/akka-testkit_2.12-2.4.20.pom
 
 %files license
 %defattr(0644,root,root,0755)
 /usr/share/package-licenses/mvn-akka/COPYING.protobuf
 /usr/share/package-licenses/mvn-akka/LICENSE
+/usr/share/package-licenses/mvn-akka/akka-cluster_jmx-client_LICENSES
 /usr/share/package-licenses/mvn-akka/akka-docs_src_main_paradox_project_licenses.md
